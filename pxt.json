@@ -1,5 +1,5 @@
 {
-    "name": "rs232-ft-41",
+    "name": "rs232-41",
     "description": "",
     "dependencies": {
         "core": "*",

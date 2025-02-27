@@ -1,6 +1,6 @@
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     basic.setLedColor(0x0000ff)
-    rs232.sendeText("rs232-ft-41")
+    rs232.sendeText("rs232-41")
     basic.turnRgbLedOff()
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
