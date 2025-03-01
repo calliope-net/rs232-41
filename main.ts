@@ -20,6 +20,10 @@ input.onButtonEvent(Button.B, ButtonEvent.Hold, function () {
     rs232.empfangAbbrechen()
     basic.setLedColor(0xffff00)
 })
+function Konfiguration () {
+    rs232.comment("rs232-41 asynchrone serielle Datenübertragung mit Licht")
+    rs232.comment("Erweiterung: calliope-net/rs232")
+}
 let text = ""
 rs232.setPins(DigitalPin.P1, AnalogPin.P2, 150)
 rs232.setTakt(50)
