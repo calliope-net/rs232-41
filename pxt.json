@@ -4,7 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "rs232": "github:calliope-net/rs232#v0.0.3"
+        "rs232": "github:calliope-net/rs232#v0.0.4"
     },
     "files": [
         "main.blocks",
